@@ -1,8 +1,6 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
 ## Getting Started
-
-First, run the development server:
+First, you need install all dependencies. in console type [`npm i`] or [`npm install`]
+Then, run the development server:
 
 ```bash
 npm run dev
@@ -14,13 +12,16 @@ pnpm dev
 bun dev
 ```
 
+Also you are able to start production server.
+[`npm build`] then [`npm start`]
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Inter].
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+As soon as you open the site, you will see "Home page". 
+There is a form, which you have to fill and click "Next" button.
+![img.png](img.png)
 
+You will see the list of filtered cars.
+![img_1.png](img_1.png)
