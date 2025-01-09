@@ -9,7 +9,7 @@ interface IProps {
 }
 
 const CarCard: FC<IProps> = ({ car_info }) => {
-  const { Make_ID, Make_Name, Model_Name, Model_ID } = car_info
+  const {Make_Name, Model_Name, Model_ID } = car_info
 
   const router = useRouter()
 

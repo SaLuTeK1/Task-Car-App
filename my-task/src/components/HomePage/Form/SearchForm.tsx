@@ -3,7 +3,6 @@
 import {FC} from 'react';
 import {ICarRes, IGetMakesForVehicle} from "@/interfaces/allResponceInteface";
 import {useForm} from "react-hook-form";
-import {navigate} from "next/dist/client/components/segment-cache/navigation";
 import {useRouter} from "next/navigation";
 
 interface IProps {
