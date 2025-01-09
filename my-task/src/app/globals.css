@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #eef0f6;
+  --foreground: #171717;
+}
+
+html{
+  font-size: 16px;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+}
+
+.wrapper{
+  width: 80%;
+  margin: 0 auto;
+}
